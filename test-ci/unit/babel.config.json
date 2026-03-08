@@ -3,13 +3,9 @@
     [
       "@babel/preset-env",
       {
-        "modules": false,
         "useBuiltIns": "entry",
         "corejs": "3.22"
       }
     ]
-  ],
-  "parserOpts": {
-    "sourceType": "module"
-  }
+  ]
 }
